@@ -1,3 +1,6 @@
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8cb3f3cc-b190-44dc-a041-a9e7ab4517fd" />
+
+
 <div align="center">
 
 # 💀 KALI TERMINAL ULTIMATE EDITION v4.2
@@ -86,6 +89,3 @@ cd kali-terminal
 python3 kali-terminal.py --install
 
 
-demo: 
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/53883113-4993-49e7-90b0-c4c55145b7d8" />
