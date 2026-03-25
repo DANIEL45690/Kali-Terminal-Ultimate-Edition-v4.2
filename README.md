@@ -83,7 +83,7 @@ wget -O kali-terminal.zip "https://disk.yandex.ru/d/pHHBM2kRgeHhfw"
 unzip kali-terminal.zip
 cd kali-terminal
 
-
+ЧТОБЫ МЕНЯ ПОДДЕРЖАТЬ, ПЕРЕВОДИТЕ НА КАРТУ - +79371868257
 
 
 
