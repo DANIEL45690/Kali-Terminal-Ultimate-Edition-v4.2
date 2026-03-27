@@ -1,92 +1,147 @@
 <img width="1280" height="785" alt="image" src="https://github.com/user-attachments/assets/b40abfcc-dfee-440d-82fa-b202f0e8ed42" />
 
 
+# 🐉 KALI Terminal Ultimate v11.0 - Complete Documentation
 
-<div align="center">
+> **The Most Advanced Python-Based Terminal Emulator with 500+ Commands, Security Suite, OSINT Tools, Cryptography, and Visual Effects**
 
-# 💀 KALI TERMINAL ULTIMATE EDITION v4.2
-
-### Профессиональный эмулятор командной строки | 200+ команд | Zero Telemetry | Open Source
-
-[![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)](https://github.com/console-hack/kali-terminal)
-[![Commands](https://img.shields.io/badge/commands-200%2B-orange)](https://github.com/console-hack/kali-terminal)
-[![Privacy](https://img.shields.io/badge/privacy-zero%20telemetry-brightgreen)](PRIVACY.md)
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/version-11.0-brightgreen.svg" alt="Version">
+  <img src="https://img.shields.io/badge/commands-500%2B-blue.svg" alt="Commands">
+  <img src="https://img.shields.io/badge/python-3.8%2B-orange.svg" alt="Python">
+  <img src="https://img.shields.io/badge/license-MIT-red.svg" alt="License">
+  <img src="https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey.svg" alt="Platform">
+</p>
 
 ---
 
-## 📋 Оглавление
+## 📋 Table of Contents
 
-- [🌟 Особенности](#-особенности)
-- [📥 Установка](#-установка)
-- [🚀 Быстрый старт](#-быстрый-старт)
-- [📚 Полный список команд](#-полный-список-команд)
-- [🎨 Визуальные эффекты](#-визуальные-эффекты)
-- [🔧 Требования](#-требования)
-- [📁 Структура проекта](#-структура-проекта)
-- [🔒 Конфиденциальность](#-конфиденциальность)
-- [🤝 Вклад в проект](#-вклад-в-проект)
-- [📄 Лицензия](#-лицензия)
-- [👤 Автор](#-автор)
-
----
-
-## 🌟 Особенности
-
-### 🚀 Мощный функционал
-- **200+** встроенных команд для любых задач
-- Полноценная работа с файловой системой (ls, cd, cp, mv, rm, mkdir)
-- Сетевые утилиты (ping, curl, wget, portscan, netstat, ssh, ftp)
-- Криптография и хеширование (MD5, SHA1, SHA256, SHA512, Base64, ROT13, ROT47)
-- Управление процессами (ps, top, kill, pkill, jobs, fg, bg)
-- Работа с архивами (zip, unzip, tar, gzip, gunzip)
-- Обработка текста (grep, sed, awk, sort, uniq, cut, tr, diff)
-- Базы данных (SQLite клиент, просмотр JSON/CSV)
-
-### 🎨 Визуальные эффекты
-- Матрица, огонь, радуга, звездное небо
-- ASCII-арт и красивые баннеры
-- Анимированные загрузки и спиннеры
-- Цветной вывод с градиентами и иконками
-- Говорящая корова (cowsay) и паровозик (sl)
-
-### 🔒 Безопасность и приватность
-- **Нулевая телеметрия** — абсолютно никакого сбора данных
-- Полностью локальная работа без внешних серверов
-- Открытый исходный код для аудита
-- Шифрование данных на стороне клиента
-- История команд хранится локально
-
-### 💻 Кроссплатформенность
-- Windows 10/11 (полная поддержка)
-- Linux (Ubuntu, Debian, Arch, Kali, Fedora, CentOS)
-- macOS (Intel и Apple Silicon)
+1. [Project Overview](#-project-overview)
+2. [Features](#-features)
+3. [System Requirements](#-system-requirements)
+4. [Installation Guide](#-installation-guide)
+5. [Quick Start](#-quick-start)
+6. [Complete Command Reference](#-complete-command-reference)
+   - [File System Commands (50+)](#-file-system-commands-50)
+   - [Text Processing Commands (60+)](#-text-processing-commands-60)
+   - [OSINT & DOX Commands (30+)](#-osint--dox-commands-30)
+   - [System Information Commands (60+)](#-system-information-commands-60)
+   - [Network Commands (50+)](#-network-commands-50)
+   - [Cryptography Commands (50+)](#-cryptography-commands-50)
+   - [Archive Commands (25+)](#-archive-commands-25)
+   - [Visual Effects Commands (40+)](#-visual-effects-commands-40)
+   - [Utility Commands (120+)](#-utility-commands-120)
+   - [Math Commands (40+)](#-math-commands-40)
+   - [Conversion Commands](#-conversion-commands)
+7. [OSINT Tool Documentation](#-osint-tool-documentation)
+8. [Cryptography Module](#-cryptography-module)
+9. [Visual Effects Gallery](#-visual-effects-gallery)
+10. [Color System & Themes](#-color-system--themes)
+11. [Alias System](#-alias-system)
+12. [Command History](#-command-history)
+13. [Environment Variables](#-environment-variables)
+14. [Configuration Files](#-configuration-files)
+15. [Troubleshooting](#-troubleshooting)
+16. [Contributing](#-contributing)
+17. [License](#-license)
 
 ---
 
-## 📥 Установка
+## 🚀 Project Overview
 
-### Способ 1: Быстрая установка (рекомендуется)
+**KALI Terminal Ultimate v11.0** is a feature-rich, Python-based terminal emulator that brings the power of a Linux terminal with over 500 built-in commands, advanced OSINT capabilities, cryptography tools, network scanners, and stunning visual effects. It's designed for security professionals, developers, and terminal enthusiasts who want an all-in-one command-line experience.
 
-```bash
-# Скачать последнюю версию с Яндекс.Диска
-curl -L -o kali-terminal.zip "https://disk.yandex.ru/d/pHHBM2kRgeHhfw"
+### 🎯 Key Highlights
 
-# Или через wget
-wget -O kali-terminal.zip "https://disk.yandex.ru/d/pHHBM2kRgeHhfw"
+- **500+ Built-in Commands** - Comprehensive set of Linux-like commands
+- **OSINT & DOX Tools** - Advanced information gathering capabilities
+- **Cryptography Suite** - Encryption, hashing, and encoding utilities
+- **Network Tools** - Port scanning, DNS lookup, ping, traceroute
+- **Visual Effects** - Matrix rain, starfield, fire effects, and more
+- **Color System** - 256-color support with 6 pre-built themes
+- **Cross-Platform** - Works on Linux, Windows, and macOS
+- **Auto-Installer** - Automatic dependency management
 
-# Распаковать архив
-unzip kali-terminal.zip
-cd kali-terminal
+---
 
-ЧТОБЫ МЕНЯ ПОДДЕРЖАТЬ, ПЕРЕВОДИТЕ НА КАРТУ - +79371868257
+## ✨ Features
 
+### 🔍 OSINT & Security
+| Feature | Description |
+|---------|-------------|
+| Email Lookup | Gravatar, MX records, domain info |
+| Phone Number Lookup | Carrier, country, timezone, validity |
+| Username Check | 15+ social platforms (GitHub, Twitter, Instagram, etc.) |
+| Domain WHOIS | Registrar, creation/expiration dates, nameservers |
+| IP Geolocation | Country, city, ISP, coordinates |
+| DNS Enumeration | A, MX, TXT, NS, CNAME records |
+| Subdomain Enumeration | 50+ common subdomains |
+| Reverse IP Lookup | PTR record resolution |
 
+### 🔐 Cryptography
+| Feature | Description |
+|---------|-------------|
+| Hash Functions | MD5, SHA1, SHA256, SHA512 |
+| Encoding | Base64, URL encode/decode, Hex, ROT13 |
+| Ciphers | Caesar cipher, XOR encryption |
+| Advanced Crypto | AES-256, Fernet symmetric encryption |
+| Password Generator | Secure random password generation |
+| UUID Generator | Version 4 UUIDs |
 
-# Автоматическая установка зависимостей
-python3 kali-terminal.py --install
+### 🌐 Network Tools
+| Feature | Description |
+|---------|-------------|
+| Port Scanner | Common port scanning (21-8888) |
+| DNS Tools | nslookup, dig, host |
+| Connectivity | ping, traceroute, telnet |
+| HTTP Tools | curl, wget, HTTP server |
+| Network Info | ifconfig, netstat, ss, route, arp |
 
+### 📁 File System
+| Feature | Description |
+|---------|-------------|
+| Navigation | cd, pwd, pushd, popd, dirs |
+| File Operations | ls, cp, mv, rm, mkdir, rmdir |
+| File Info | stat, file, du, df, which, whereis |
+| Permissions | chmod, ln (symlinks) |
+| Search | find, locate, grep family |
+
+### 📝 Text Processing
+| Feature | Description |
+|---------|-------------|
+| Viewing | cat, head, tail, less, more |
+| Manipulation | sed, awk, cut, tr, sort, uniq |
+| Comparison | diff, comm, join |
+| Formatting | fmt, column, fold, expand |
+| Dumps | od, xxd, hexdump, strings |
+
+### 🎨 Visual Effects
+| Feature | Description |
+|---------|-------------|
+| Matrix Rain | Classic falling code effect |
+| Fire Effect | Animated flames |
+| Starfield | Twinkling stars |
+| Snow Effect | Falling snowflakes |
+| Rainbow Text | Cycling colors |
+| Typewriter | Letter-by-letter animation |
+| Glitch Effect | Digital distortion |
+| Cowsay | ASCII cow with messages |
+| Figlet | ASCII art banners |
+| Neofetch | System info with ASCII art |
+
+---
+
+## 💻 System Requirements
+
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| **OS** | Windows 10 / Linux / macOS | Any modern OS |
+| **Python** | 3.8+ | 3.10+ |
+| **RAM** | 512 MB | 2 GB |
+| **Disk Space** | 200 MB | 500 MB |
+| **Terminal** | 80x24 | 120x40+ |
+| **Network** | Optional for OSINT | Required for external APIs |
+
+### 📦 Required Python Packages (Auto-Installed)
 
